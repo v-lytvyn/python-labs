@@ -1,5 +1,5 @@
 class Book:
-    def __init__(self, pages = 100, author = "King", price = 250, year = 2021, publisher = "KSD"):
+    def __init__(self, pages = 1344, author = "Stiven King", price = 570, year = 2021, publisher = "KSD"):
         self.__pages = pages
         self.__author = author
         self.__price = price
@@ -40,24 +40,3 @@ print(book_2)
 print(book_3)
 
 print(book_4)
-
-
-
-
-   
-# book_1 = Book(760, "King", 250, 2020, "KSD")
-# print(book_1)   
-   
-   
-   
-#     pages = None
-#     author = None
-#     price = None
-
-#     def info(self, pages, author, price):
-#         print(f"Author: {author}, Pages: {pages}, Price: {price}")
-
-
-# book_1 = Book()
-# book_1.info(760, "King", 550)
-
